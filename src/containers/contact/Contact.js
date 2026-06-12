@@ -22,7 +22,7 @@ export default function Contact() {
 
           <div style={{marginBottom: "1.5rem"}}>
             <span className="avail-badge">
-              Not actively looking — open to great opportunities
+              Currently looking for new opportunities
             </span>
           </div>
 
@@ -32,7 +32,12 @@ export default function Contact() {
                 <i className="fas fa-phone"></i> {contactInfo.number}
               </a>
             )}
-            <a href={`mailto:${contactInfo.email_address}`} className="contact-item">
+            <a
+              href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(contactInfo.email_address)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="contact-item"
+            >
               <i className="fas fa-envelope"></i> {contactInfo.email_address}
             </a>
           </div>

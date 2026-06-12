@@ -43,13 +43,13 @@ export default function Greeting() {
         </p>
 
         <div className="button-greeting-div">
-          <a href={greeting.resumeLink} target="_blank" rel="noopener noreferrer" className="btn-primary" download>
-            <i className="fas fa-download"></i> Download Resume
+          <a href={greeting.resumeLink} target="_blank" rel="noopener noreferrer" className="btn-primary">
+            <i className="fas fa-eye"></i> View Resume
           </a>
           <a href="#projects" className="btn-ghost">
             <i className="fas fa-code"></i> View Projects
           </a>
-          <a href="#contact" className="btn-ghost">
+          <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(socialMediaLinks.gmail)}`} target="_blank" rel="noopener noreferrer" className="btn-ghost">
             <i className="fas fa-envelope"></i> Get in Touch
           </a>
         </div>

@@ -22,14 +22,14 @@ const greeting = {
     "Full Stack Developer with hands-on production experience building and deploying scalable web applications on AWS. Specialises in Node.js backend services, React.js SPAs, and serverless architectures using Lambda, API Gateway, Cognito, SQS, and DynamoDB."
   ),
   resumeLink:
-    "/Madhesh_Resume.pdf",
+    "/Madhesh_Resume_.pdf",
   displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Madhesh767",
+  github: "https://github.com/madheshduraisamy",
   linkedin: "https://www.linkedin.com/in/madhesh-d-9b1b42251/",
   gmail: "madhesh.suguna76@gmail.com",
   instagram: "",
@@ -210,19 +210,37 @@ const bigProjects = {
       image: require("./assets/images/task.jpg"),
       projectName: "Task Management System",
       projectDesc:
-        "Full-stack application with React.js frontend and Node.js backend enabling real-time task tracking across distributed teams. Built a dual-role permission system with manager and team member accounts. Developed CRUD-compliant REST APIs with Express.js covering user profiles, tasks, assignments, priorities, deadlines, and status workflows. Implemented JWT authentication with session management enforcing data isolation between roles."
+        "Full-stack application with React.js frontend and Node.js backend enabling real-time task tracking across distributed teams. Built a dual-role permission system with manager and team member accounts. Developed CRUD-compliant REST APIs with Express.js covering user profiles, tasks, assignments, priorities, deadlines, and status workflows. Implemented JWT authentication with session management enforcing data isolation between roles.",
+      footerLink: [
+        {
+          name: "Live Demo",
+          url: "https://task.madhesh.co.in/"
+        }
+      ]
     },
     {
       image: require("./assets/images/agribot.jpg"),
       projectName: "Agri-Bot — AI Agricultural Assistant",
       projectDesc:
-        "Built an AI-powered assistant integrating with NPK sensor hardware to capture real-time soil pH, nitrogen, phosphorus, and potassium readings. Developed a crop recommendation engine that analyses sensor data to suggest optimal crops, reducing crop failure risk for small-scale farmers. Delivered a unified Python full-stack platform connecting the data pipeline, recommendation logic, and government agricultural scheme discovery."
+        "Built an AI-powered assistant integrating with NPK sensor hardware to capture real-time soil pH, nitrogen, phosphorus, and potassium readings. Developed a crop recommendation engine that analyses sensor data to suggest optimal crops, reducing crop failure risk for small-scale farmers. Delivered a unified Python full-stack platform connecting the data pipeline, recommendation logic, and government agricultural scheme discovery.",
+      footerLink: [
+        {
+          name: "Live Demo",
+          url: "https://agribot.madhesh.co.in/"
+        }
+      ]
     },
     {
-      image: require("./assets/images/gesture.jpg"),
+      image: require("./assets/images/gesture.webp"),
       projectName: "Hand Gesture Recognition",
       projectDesc:
-        "Built a real-time gesture recognition system using TensorFlow, OpenCV, and Python, achieving reliable multi-gesture classification from live webcam input via a trained deep learning model. Applied data augmentation and hyperparameter tuning, visualising performance with Matplotlib accuracy curves, loss graphs, and confusion matrices."
+        "Built a real-time gesture recognition system using TensorFlow, OpenCV, and Python, achieving reliable multi-gesture classification from live webcam input via a trained deep learning model. Applied data augmentation and hyperparameter tuning, visualising performance with Matplotlib accuracy curves, loss graphs, and confusion matrices.",
+      footerLink: [
+        {
+          name: "Live Demo",
+          url: "https://rental.madhesh.co.in/"
+        }
+      ]
     }
   ],
   display: true
@@ -348,7 +366,7 @@ const podcastSection = {
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
+  subtitle: "Feel free to view my resume",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
@@ -369,7 +387,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
