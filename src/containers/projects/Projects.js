@@ -32,7 +32,21 @@ export default function Projects() {
                 <div className="project-num">0{i + 1} / {project.projectName}</div>
                 <div className="project-name">{project.projectName}</div>
                 <p className="project-desc">{project.projectDesc}</p>
-                {/* We can add tags if they were in the portfolio.js, but they aren't for projects yet */}
+                {project.footerLink ? (
+                  <div className="project-card-footer">
+                    {project.footerLink.map((link, j) => (
+                      <a
+                        key={j}
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-tag"
+                      >
+                        {link.name}
+                      </a>
+                    ))}
+                  </div>
+                ) : null}
               </div>
             </div>
           </Fade>

@@ -91,6 +91,32 @@
   z-index: 2;
 }
 
+.project-card-footer {
+  margin-top: 1rem;
+}
+
+.project-card-footer .project-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.8rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: $text;
+  background: rgba(0, 229, 255, 0.12);
+  border: 1px solid rgba(0, 229, 255, 0.18);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.project-card-footer .project-tag:hover {
+  background: rgba(0, 229, 255, 0.18);
+  transform: translateY(-1px);
+}
+
 @media (max-width: 900px) {
   #projects {
     padding: 4rem 1.5rem;
