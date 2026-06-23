@@ -3,9 +3,9 @@
   "name": "DeveloperFolio",
   "icons": [
     {
-      "src": "/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "/resume_.png",
+      "type": "image/png",
+      "sizes": "64x64 32x32 24x24 16x16"
     },
     {
       "src": "/android-chrome-192x192.png?v8=qAJ44G5Bm7",

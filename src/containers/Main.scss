@@ -3,4 +3,10 @@
 .dark-mode {
   background-color: $bg;
   color: $text;
+  width: 100%;
+  max-width: 100vw;
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  position: relative;
 }
