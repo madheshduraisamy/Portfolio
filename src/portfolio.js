@@ -22,7 +22,7 @@ const greeting = {
     "Full Stack Developer with hands-on production experience building and deploying scalable web applications on AWS. Specialises in Node.js backend services, React.js SPAs, and serverless architectures using Lambda, API Gateway, Cognito, SQS, and DynamoDB."
   ),
   resumeLink:
-    "/Madhesh_Resume_.pdf",
+    "/Madhesh_PD_Resume.pdf",
   displayGreeting: true
 };
 
@@ -231,10 +231,10 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/gesture.webp"),
-      projectName: "Hand Gesture Recognition",
+      image: require("./assets/images/car_rental.jpg"),
+      projectName: "Car Rental System",
       projectDesc:
-        "Built a real-time gesture recognition system using TensorFlow, OpenCV, and Python, achieving reliable multi-gesture classification from live webcam input via a trained deep learning model. Applied data augmentation and hyperparameter tuning, visualising performance with Matplotlib accuracy curves, loss graphs, and confusion matrices.",
+        "Built a full-stack car rental platform with vehicle listing, availability tracking, booking management, and admin controls. Developed a React.js frontend with Node.js backend APIs for customer bookings, rental workflows, and inventory updates.",
       footerLink: [
         {
           name: "Live Demo",
