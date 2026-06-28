@@ -16,7 +16,7 @@ export default function Contact() {
         <Fade bottom duration={1200} distance="20px">
           <p>
             Discuss a project, backend architecture, or just want to say hi? My
-            inbox is open. I'm currently working at Pitfall and selectively
+            inbox is open. I'm currently working at PackForce and selectively
             available for interesting challenges.
           </p>
 

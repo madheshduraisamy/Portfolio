@@ -165,7 +165,7 @@ const workExperiences = {
   experience: [
     {
       role: "Full Stack Developer",
-      company: "Pitfall Pvt Ltd",
+      company: "PackForce Pvt Ltd",
       companylogo: require("./assets/images/Pitfall.png"),
       date: "March 2025 – Present",
       descBullets: [
